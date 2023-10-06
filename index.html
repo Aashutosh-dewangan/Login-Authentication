@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Basic Login Authentication</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="head">
+      <h1>Authentication</h1>
+    </div>
+
+    <!-- User Registration Form -->
+    <div id="registration-form">
+      <h2>Register</h2>
+      <form id="registration" onsubmit="return registerUser()">
+        <input type="text" id="regUsername" placeholder="Username" required>
+        <input type="password" id="regPassword" placeholder="Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <!-- User Login Form -->
+    <div id="login-form" style="display: none;">
+      <h2>Login</h2>
+      <form id="login" onsubmit="return loginUser()">
+        <input type="text" id="loginUsername" placeholder="Username" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    
+    <!-- Secured Page Content -->
+    <div id="secured-content" style="display: none;">
+      <h2>Welcome to the Secured Page!</h2>
+      <p>This is protected content only accessible to authenticated users.</p>
+      <button onclick="logoutUser()">Logout</button>
+    </div>
+    <p class="changer" id="toggleForms">Login-form</p>
+  </div>
+  
+  <script src="/index.js"></script>
+</body>
+
+</html>

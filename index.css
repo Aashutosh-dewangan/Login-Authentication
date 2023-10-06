@@ -1,0 +1,94 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:ital@1&family=Roboto:wght@700&display=swap');
+
+</style>* {
+  margin: 0;
+  padding: 0;
+}
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Inclusive Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.head {
+  position: absolute;
+  top: 0px;
+  background-color: rgb(68, 68, 183);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 389px;
+  border-radius: 5px;
+}
+
+.container {
+  box-shadow: 12px 8px 8px rgb(118, 118, 119);
+  text-align: center;
+  height: 304px;
+  width: 390px;  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 25px;
+  width: 300px;
+  margin: 5px;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(18, 86, 112);
+  width: 100px;
+
+}
+
+button:hover {
+  background: rgb(249, 252, 255);
+  color: black;
+}
+
+p {
+  color: rgb(108, 108, 245);
+  cursor: pointer;
+}
+
+#login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form {
+  margin-top: 45px;
+}
+
+#registration {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#registration-form {
+  margin-top: 45px;
+}
