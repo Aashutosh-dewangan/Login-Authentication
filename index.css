@@ -4,10 +4,13 @@
   margin: 0;
   padding: 0;
 }
-.page{
+
+.page {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; 
+
 }
 
 body {
@@ -25,7 +28,7 @@ h1 {
 
 .head {
   position: absolute;
-  top: 0px;
+  top: 211px;
   background-color: rgb(68, 68, 183);
   color: white;
   justify-content: center;
@@ -91,4 +94,7 @@ p {
 
 #registration-form {
   margin-top: 45px;
+}
+span{
+  color: rgb(237, 41, 41);
 }
